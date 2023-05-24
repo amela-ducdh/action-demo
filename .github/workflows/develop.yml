@@ -13,8 +13,8 @@ permissions:
   contents: read
 
 jobs:
-  deploy:
-    name: Deploy
+  deployMain:
+    name: deployMain
     runs-on: ubuntu-latest
     environment: production
 
